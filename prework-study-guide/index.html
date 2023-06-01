@@ -11,15 +11,20 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
           <li>HTML is the structure of the webpage</li>
+          <li>Elements - an element is a type of content on a webpage. Types of elements: text elements, image elements, header elements, list elements.</li>
           <li>The head element contains information about the webpage</li>
           <li>The body element represents the visible content shown to the user</li>
+          <li>Metadata, which is held within the head element, is information about the webpage that is not shown to the user.</li>
+          <li>Tags - the opening tag <> is used to tell the browser to start a process, the ending tag </> is used to tell the browser to end the process.</li>
           <li>An HTML attribute defines additional information about an element, eg. lang="eng". HTML attributes are always defined in the beginning element, never the closing element.</li>
+        
         </ul>
       </section>
 
@@ -29,7 +34,6 @@
           <li>A margin indicates how much space we want around the outside of an element</li>
           <li>A padding indicates how much space we want around the content inside an element</li>
           <li>Adding colours can be done by using semantic references - like grey or blue - or by using the colours hexadecimal code</li>
-          <li></li>
         </ul>
       </section>
 
@@ -38,13 +42,28 @@
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li> cd (directory name): navigates to the needed directory.</li>
+          <li>code . : opens VS code</li>
+          <li>git add -A: The add command adds mods in the current working branch and staging area. The -A flag indicates that we want to add all changes. </li>
+          <li>git commit -m "message": commits the files and adds message that describes what the commit contains.</li>
+          <li>git pull origin main: pulls down any changes from the base branch.</li>
+          <li>git push origin branch-name: the push command is used to push the changes we have locally to our remote GitHub branch.</li>
         </ul>
       </section>
 
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li> JavaScript notes</li>
+          <li>JavaScript is used to add features to the webpage and make them interactive.</li>
+          <li>Variables: can be thought of as named containers. The variable needs to be declared before it can be used by using the var keyword.</li>
+          <li>console.log allows us to print the code into the console</li>
+          <li>Conditional/if statements allows JavaScript to make decisions based on a set of conditions. When using an if statement the computer will check to see if the condition is truthy (Anything that is falsy can be seen as a negative input, ie. 0, empty strings, or null). If the statement is truthy it will execute, however, if it is falsy the computer will move on to the else statements until it finds one that is truthy.</li>
+          <li>=== checks to see if the two values are equal.</li>
+          <li>Arrays: a single variable that is used to hold a group of data or a list. Made by declaring a variable and then adding the data into square brackets [].</li>
+          <li>For loop: tells the computer to go through each of the items in an array and log them to the console until there are no items left. </li>
+          <li>Functions: a set of instructions that tells the computer how to perform a certain task. You must call a function by name in the console after is declared in order to execute it. A functions name is followed by parentheses, eg. function helloWorld()</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>Math.floor() and Math.random() are built-in features of JavaScript that can be used together to generate a random number. </li>
         </ul>
       </section> 
     </main>
@@ -52,5 +71,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
