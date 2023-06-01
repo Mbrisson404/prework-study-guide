@@ -2,7 +2,7 @@
 
 ## Description
 
-I made this study guide for the purpose of putting all the notes for the prework in one organized webpage. The prework study guide includes notes on HTML, CSS, Git, and JavaScript. Using the Prework instructions and videos I compiled the most important points. Along the journey of this project, I learned how to create a webpage for the first time and how to use GitHub.
+I made this study guide for the purpose of putting all the notes for the prework in one organized webpage. The prework study guide includes notes on HTML, CSS, Git, and JavaScript. Using the Prework instructions and videos I compiled the most important points.
 
 ## Installation
 
